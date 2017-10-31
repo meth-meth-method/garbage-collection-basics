@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gargage Collection</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            background: #000;
+            display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: space-around;
+            margin: 0;
+        }
+
+        button {
+            border: none;
+            background: #333;
+            color: #999;
+        }
+
+        #spinner {
+            background: #0086ff;
+            height: 10vw;
+            width: 10vw;
+        }
+    </style>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <button id="conservative">Conserve</button>
+
+    <div id="spinner"></div>
+
+    <button id="wasteful">Waste</button>
+</body>
+</html>
